@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+$font-family-base: "Indie Flower", cursive;
+$primary: #3cb4ab;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./components/navbar";
+@import "./components/page";
+
+* {
+  font-family: $font-family-base;
+}
